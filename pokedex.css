@@ -1,0 +1,191 @@
+body {
+    font-family:  arial, Arial, Helvetica, sans-serif;
+}
+
+#content-box {
+    width: 500px;
+    height: 500px;
+    border: 10px solid lightgray;
+    border-radius: 10px black;
+    background-color: blue;
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+}
+
+#pokemon-info {
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+}
+
+#pokemon-list {
+    width: 250px;
+    height: 500px;
+    background-color: red;
+    font-size: 18px;
+    overflow-y: auto;
+}
+
+.pokemon-name {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+#pokemon-info img {
+    width: 160px;
+    height: 160px;
+    border: 5px solid black;
+    border-radius: 1px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.type-box {
+    padding: 1px;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 1px;
+}
+
+.normal {
+    background-color: beige;
+    color: black;
+}
+
+.fire {
+    background-color: orange;
+    color: black;
+}
+
+.grass {
+    background-color: green;
+    color: black;
+}
+
+.water {
+    background-color: blue;
+    color: black;
+}
+
+.ice {
+    background-color: lightblue;
+    color: black;
+}
+
+.electric {
+    background-color: gold;
+    color: black;
+}
+
+.fighting {
+    background-color: darkred;
+    color: black;
+}
+
+.flying {
+    background-color: skyblue;
+    color: black;
+}
+
+.bug {
+    background-color: yellowgreen;
+    color: black;
+}
+
+.ghost {
+    background-color: purple;
+    color: black;
+}
+
+.rock {
+    background-color: sienna;
+    color: black;
+}
+
+.ground {
+    background-color: burlywood;
+    color: black;
+}
+
+.steel {
+    background-color: silver;
+    color: black;
+}
+
+.dark {
+    background-color: darkgray;
+    color: black;
+}
+
+.psychic {
+    background-color: palevioletred;
+    color: black;
+}
+
+.fairy {
+    background-color: pink;
+    color: black;
+}
+
+.dragon {
+    background-color: teal;
+    color: black;
+}
+
+.poison {
+    background-color: darkviolet;
+    color: black;
+}
+
+#pokemon-height {
+    width: 50px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 5px solid black;
+    background-color: white;
+    color: black;
+}
+
+#num1 {
+    margin-bottom: 15px;
+}
+
+#pokemon-weight {
+    width: 50px;
+    height: auto;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 5px solid black;
+    background-color: white;
+    color: black;
+}
+
+#pokemon-description {
+    width: 230px;
+    height: 100px;
+    background-color: white;
+    border: 8px solid black;
+    border-radius: 1px;
+
+    margin: 0 auto;
+    margin-top: 26px;
+    padding: 2px;
+    font-size: 18px;
+    overflow-y: auto;
+}
+
+#pokedeximg {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 1000px;
+}
